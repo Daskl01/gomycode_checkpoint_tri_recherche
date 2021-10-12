@@ -1,6 +1,16 @@
 PROCEDURE tri_insertion_carte(VAR tab:ARRAY_OF INTEGER[50];)
 VAR
     i,j:INTEGER
+    elt:INTEGER
 BEGIN
-    
+//N:length
+    read(tab)
+    FOR i FROM 0 TO i-1 STEP 1  DO
+        elt:=array[i]
+        j:=i 
+        WHILE (j>0 and elt<array[j-1]) DO
+        array[j]:=array[j-1]
+        array[j]:=elt
+        END_WHILE
+    END_FOR 
 END

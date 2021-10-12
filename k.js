@@ -1,10 +1,6 @@
-function accum(s) {
-	let str=String
-    let letter=String
-    for (let i = 0; i < array.length; i++) {
-        letter=str.charAt(0).touppercase
-    }
-    return (letter)
+function disemvowel(str) {
+    var diemvoweledStr = str.replace(/[aeiou]/gi,"");
+    return diemvoweledStr;
 }
 
-console.log(accum('abba'))
+console.log(disemvowel("la vie est belle"))
