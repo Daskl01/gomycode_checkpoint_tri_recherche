@@ -1,0 +1,6 @@
+PROCEDURE tri_insertion_carte(VAR tab:ARRAY_OF INTEGER[50];)
+VAR
+    i,j:INTEGER
+BEGIN
+    
+END
